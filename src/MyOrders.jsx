@@ -56,7 +56,12 @@ const MyOrders = ({ orders, setOrders }) => {
           </tbody>
         </table>
       </div>
-      <button className="add-button" onClick={() => navigate("/add")}>Añadir nueva orden</button>
+      <button className="add-button" onClick={() => navigate("/add")}>
+        Añadir nueva orden
+      </button>
+      <footer style={{ marginTop: "2rem", textAlign: "center", fontSize: "0.9rem", color: "#666" }}>
+        Desarrollado por Juan Carranza
+      </footer>
     </div>
   );
 };
